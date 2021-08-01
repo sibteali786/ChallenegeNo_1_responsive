@@ -1,0 +1,66 @@
+body {
+  font-family: "Space Mono";
+  word-spacing: 0.6em;
+}
+.nf {
+  position: absolute;
+  height: 25px;
+  left: 77px;
+  top: 40px;
+
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+img {
+  height: 447.4263916015625px;
+  width: 539.2236938476562px;
+  left: 77px;
+  top: 265px;
+  border-radius: 0px;
+  position: absolute;
+  left: 5.35%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 34.03%;
+}
+.heading {
+  position: absolute;
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+.mess {
+  position: absolute;
+  width: 350px;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  color: #4f4f4f;
+  opacity: 85%;
+}
+button {
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+  background: #333333;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
