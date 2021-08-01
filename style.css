@@ -90,11 +90,13 @@ div img {
 }
 
 .copyright {
-  width: 96%;
-  margin-left: 4%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   color: #bdbdbd;
   font-weight: 500;
   font-family: "Montserrat";
+  font-size: 14px;
 }
 /* @media only screen and (min-width: 480px) {
   .topMess {
