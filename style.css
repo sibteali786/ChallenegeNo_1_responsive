@@ -19,6 +19,8 @@ html {
 }
 body {
   font-family: monospace;
+  margin: 0;
+  padding: 0;
 }
 
 /* Grid System*/
@@ -34,60 +36,68 @@ body {
   margin-right: 4%;
   min-height: 1px;
   float: left;
-  font-family: "Inconsolata";
+  font-family: "Inconsolata", monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 25px;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
 }
 
-img {
-  height: 447.4263916015625px;
-  width: 539.2236938476562px;
-  left: 77px;
-  top: 265px;
-  border-radius: 0px;
-  position: absolute;
-  left: 5.35%;
-  right: 57.21%;
-  top: 24.54%;
-  bottom: 34.03%;
+div img {
+  width: 100%;
+  max-width: 539.2236938476562px;
+}
+
+.images {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 .heading {
-  position: absolute;
-  width: 586px;
-  height: 190px;
-  left: 735px;
-  top: 265px;
+  width: 96%;
+  margin-left: 4%;
   font-style: normal;
   font-weight: bold;
-  font-size: 64px;
-  line-height: 95px;
-  letter-spacing: -0.035em;
+  font-size: 48px;
+  line-height: 71.09px;
+  letter-spacing: -0.05em;
   color: #333333;
 }
+.Head {
+  margin-bottom: 4%;
+}
 .mess {
-  position: absolute;
-  width: 350px;
-  height: 108px;
-  left: 736px;
-  top: 491px;
-  font-size: 24px;
-  line-height: 36px;
+  margin-top: 4%;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 26.66px;
   letter-spacing: 0.1em;
   color: #4f4f4f;
-  opacity: 85%;
 }
-button {
-  position: absolute;
-  width: 216px;
+.submit-3 {
+  width: 55%;
   height: 68px;
-  left: 740px;
-  top: 663px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 12%;
+  margin-bottom: 12%;
   background: #333333;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+
+/* @media only screen and (min-width: 480px) {
+  .topMess {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .images {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} */
