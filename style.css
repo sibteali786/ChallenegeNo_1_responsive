@@ -13,7 +13,6 @@ html {
 
 .wrapper {
   width: 97%;
-  max-width: 1900px;
   margin: 0 auto;
   float: none;
 }
@@ -47,18 +46,21 @@ body {
 
 div img {
   width: 100%;
-  max-width: 539.2236938476562px;
+  max-width: 650px;
+  object-fit: contain;
 }
 
 .images {
-  width: 92%;
-  margin-left: 4%;
-  margin-right: 4%;
+  width: 100%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  padding: 0% 5%;
+  float: left;
 }
 .heading {
-  width: 92%;
+  width: 88%;
   margin-left: 4%;
-  margin-right: 4%;
+  margin-right: 8%;
   font-style: normal;
   font-size: 48px;
   line-height: 71.09px;
@@ -77,12 +79,11 @@ div img {
   color: #4f4f4f;
 }
 .submit-3 {
-  width: 55%;
+  width: 216px;
   height: 68px;
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-top: 12%;
+  margin-top: 6%;
   margin-bottom: 10%;
+  padding: 0 1%;
   background: #333333;
   color: #ffffff;
   text-transform: uppercase;
@@ -90,23 +91,52 @@ div img {
 }
 
 .copyright {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  color: #bdbdbd;
+  width: 96%;
+  margin-top: 8%;
+}
+.text {
+  color: #4f4f4fa8;
   font-weight: 500;
   font-family: "Montserrat";
   font-size: 14px;
+  text-align: center;
+  font-style: normal;
 }
-/* @media only screen and (min-width: 480px) {
+
+.user {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 950px) {
   .topMess {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 100%;
+    margin-left: 4%;
+    margin-right: 0;
+    margin-bottom: 10%;
   }
   .images {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 46%;
+    float: left;
+    padding: 0;
+    margin-left: 4%;
   }
-} */
+  .heading {
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+  }
+  .Head {
+    font-size: 64px;
+    margin-bottom: 0;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+  }
+  .mess {
+    /* width: 90%; */
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.035em;
+    margin-top: 0;
+  }
+}
