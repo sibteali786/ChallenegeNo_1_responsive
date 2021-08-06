@@ -21,6 +21,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 /*Grid System  -- Mobile First*/
+
+/* Header */
 .row-1 {
   display: flex;
   flex-flow: column wrap;
@@ -62,6 +64,7 @@ h5 {
   color: #000000;
 }
 
+/* Main Body */
 .row-2 {
   display: flex;
   flex-flow: row wrap;
@@ -69,17 +72,14 @@ h5 {
   justify-content: space-between;
 }
 
-.row-2 :nth-child(2n) {
+.row-2 article:nth-child(2n) {
   margin-top: 10%;
-}
-.row-2 p:nth-child(3n-1) {
-  margin-top: 0;
 }
 
 .name {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 21px;
 
   /* identical to box height */
@@ -88,8 +88,6 @@ h5 {
 }
 
 .desig {
-  width: 100%;
-  max-width: 30px;
   font-family: "PT Serif";
   font-style: normal;
   font-weight: normal;
@@ -114,6 +112,19 @@ div img {
   padding: 1% 2%;
 }
 
+/* Footer  */
+.row-3 {
+  margin-top: 8%;
+}
+
+.text {
+  color: #4f4f4fa8;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 14px;
+  text-align: center;
+  font-style: normal;
+}
 @media only screen and (min-width: 750px) {
   .wrapper {
     /* width: 97%; */
@@ -129,7 +140,6 @@ div img {
   h4 {
     font-size: 36px;
     line-height: 48px;
-    letter-spacing: -0.045em;
     margin: 4%;
   }
   .para {
@@ -151,10 +161,10 @@ div img {
     margin-top: 1em;
     justify-content: space-between;
   }
-  .row-2 :nth-child(3n-1) {
+  .row-2 article:nth-child(3n-1) {
     margin-top: 10%;
   }
-  .row-2 p:nth-child(3n-1) {
+  .row-2 article:nth-child(2n + 4) {
     margin-top: 0;
   }
 
@@ -162,7 +172,7 @@ div img {
     display: flex;
     align-items: flex-start;
     width: 30%;
-    padding: 1% 4%;
+    padding: 1% 2%;
   }
   .name {
     font-size: 18px;
