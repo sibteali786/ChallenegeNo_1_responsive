@@ -12,11 +12,10 @@ html {
 }
 
 .wrapper {
-  display: flex;
-  justify-content: center;
-  flex-flow: column nowrap;
-  max-width: 2000px;
-  /* float: none; */
+  width: 97%;
+  max-width: 800px;
+  float: none;
+  margin: 0 auto;
 }
 
 body {
@@ -129,6 +128,10 @@ div img {
   font-style: normal;
 }
 @media only screen and (min-width: 900px) {
+  .wrapper {
+    width: 97%;
+    max-width: 1200px;
+  }
   .row-1 {
     display: flex;
     flex-flow: row nowrap;
