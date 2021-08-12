@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin: 8% 0;
 }
 h4 {
   font-family: "PT Serif";
@@ -126,7 +127,7 @@ footer p {
     max-width: 1200px;
   }
   .row {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     margin: 8% 0;
   }
@@ -149,11 +150,6 @@ footer p {
     line-height: 27px;
   }
 
-  .row-2 {
-    flex-flow: row wrap;
-    margin-top: 1em;
-    justify-content: space-between;
-  }
   div article:nth-child(3n-1) {
     margin-top: 10%;
   }
