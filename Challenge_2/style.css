@@ -24,11 +24,10 @@ body {
 /*Grid System  -- Mobile First*/
 
 /* Header */
-.row-1 {
+.row {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-  margin: 4% 4%;
 }
 h4 {
   font-family: "PT Serif";
@@ -67,14 +66,8 @@ h5 {
 }
 
 /* Main Body */
-.row-2 {
-  display: flex;
-  flex-flow: row wrap;
-  margin-top: 1em;
-  justify-content: space-between;
-}
 
-.row-2 article:nth-child(2n) {
+div article:nth-child(2n) {
   margin-top: 10%;
 }
 
@@ -115,7 +108,7 @@ div img {
 }
 
 /* Footer  */
-.row-3 {
+footer {
   margin-top: 8%;
 }
 
@@ -132,8 +125,7 @@ footer p {
     width: 97%;
     max-width: 1200px;
   }
-  .row-1 {
-    display: flex;
+  .row {
     flex-flow: row nowrap;
     justify-content: space-between;
     margin: 8% 0;
@@ -162,10 +154,10 @@ footer p {
     margin-top: 1em;
     justify-content: space-between;
   }
-  .row-2 article:nth-child(3n-1) {
+  div article:nth-child(3n-1) {
     margin-top: 10%;
   }
-  .row-2 article:nth-child(2n + 4) {
+  div article:nth-child(2n + 4) {
     margin-top: 0;
   }
 
