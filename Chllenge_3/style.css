@@ -10,10 +10,51 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+body {
+  background-color: #181719;
+  color: #ffffff;
+}
 .wrapper {
   width: 97%;
   max-width: 1440px;
   float: none;
-  margin: 0 auto;
+  margin: 3% auto;
+}
+
+nav {
+  display: grid;
+  gap: 8%;
+  grid-template-columns: 0.55fr 0.45fr;
+}
+
+nav ul {
+  list-style-type: none;
+}
+li a:hover {
+  background-color: #ffffff;
+  color: #181719;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 0em 1.8em;
+  font-family: "Montserrat";
+  font-size: 18px;
+}
+
+nav li {
+  display: inline-block;
+  width: auto;
+  padding: 0;
+}
+
+.header-box {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  text-transform: uppercase;
+  font-family: "Crimson Pro";
+  font-size: 14px;
+  font-weight: 200;
+  width: max-content;
 }
