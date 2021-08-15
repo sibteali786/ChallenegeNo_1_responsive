@@ -15,31 +15,15 @@ body {
   color: #ffffff;
 }
 .wrapper {
-  width: 97%;
   max-width: 1200px;
   float: none;
   margin: 3% auto;
 }
 
-nav {
-  display: grid;
-  gap: 8%;
-  grid-template-columns: 0.6fr 0.4fr;
-}
-
 nav ul {
   list-style-type: none;
 }
-.b {
-  grid-column: 3/4;
-  grid-row: auto;
-}
-.a {
-  grid-column: 1/3;
-  grid-row: auto;
-  display: flex;
-  align-items: center;
-}
+
 li a:hover {
   text-decoration: underline;
   text-underline-position: under;
@@ -72,7 +56,7 @@ nav li {
   font-family: "Crimson Pro";
   font-size: 14px;
   font-weight: 200;
-  width: max-content;
+  /* margin-left: 4%; */
 }
 
 .header-box:hover {
@@ -80,4 +64,20 @@ nav li {
   color: black;
   border-radius: 16px;
   cursor: pointer;
+}
+/* Grid System  */
+nav {
+  display: grid;
+  gap: 8%;
+  grid-template-columns: 1fr 3fr;
+}
+
+.a {
+  display: flex;
+  align-items: center;
+}
+
+.b {
+  display: flex;
+  justify-content: flex-end;
 }
