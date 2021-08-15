@@ -15,9 +15,9 @@ body {
   color: #ffffff;
 }
 .wrapper {
-  max-width: 1200px;
+  max-width: 1300px;
   float: none;
-  margin: 3% auto;
+  margin: 4% auto;
 }
 
 nav ul {
@@ -37,7 +37,8 @@ nav a {
   color: #ffffff;
   text-decoration: none;
   display: block;
-  padding: 0.8em 1.8em;
+  padding-left: 4em;
+  padding-right: 0em;
   font-family: "Montserrat";
   font-size: 18px;
 }
@@ -64,6 +65,56 @@ nav li {
   color: black;
   border-radius: 16px;
   cursor: pointer;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 14% auto;
+}
+
+aside img {
+  width: 100%;
+  max-width: 740px;
+}
+
+.Heading {
+  font-family: "Lora";
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.para {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  max-width: 450px;
+}
+.last-line {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 18px;
+  width: 120px;
+}
+.Last {
+  display: flex;
+  align-items: center;
+}
+i {
+  margin-left: 3%;
+}
+
+aside {
+  display: flex;
+  justify-content: flex-end;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
 }
 /* Grid System  */
 nav {
