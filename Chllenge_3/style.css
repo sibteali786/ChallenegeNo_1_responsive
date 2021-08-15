@@ -28,11 +28,9 @@ li a:hover {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-thickness: 1.5px;
+  transform: scale(1.1);
 }
 
-li a:active {
-  list-style-type: square;
-}
 nav a {
   color: #ffffff;
   text-decoration: none;
@@ -41,6 +39,7 @@ nav a {
   padding-right: 0em;
   font-family: "Montserrat";
   font-size: 18px;
+  transition: 0.5s;
 }
 
 nav li {
@@ -100,6 +99,11 @@ aside img {
 .Last {
   display: flex;
   align-items: center;
+  transition: 0.5s;
+}
+.Last:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 i {
   margin-left: 3%;
