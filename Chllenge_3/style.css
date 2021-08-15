@@ -120,6 +120,7 @@ article {
   align-items: flex-start;
   flex-flow: column nowrap;
 }
+
 /* Grid System  */
 nav {
   display: grid;
