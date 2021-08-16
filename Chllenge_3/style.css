@@ -292,7 +292,7 @@ span .fa-long-arrow-right {
 
   aside .side-image {
     width: clamp(250px, 31vw, 410px);
-    height: clamp(100px, 20vh, 130px);
+    height: clamp(100px, 20vh, 150px);
     position: absolute;
     bottom: -100px;
     left: 8vw;
